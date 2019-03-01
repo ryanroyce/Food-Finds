@@ -1,0 +1,118 @@
+h1{
+    padding: 1em;
+    font-size: 2em;
+}
+h2{ 
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+p{
+    font-size: 1em;
+}
+
+/*HOT LINKS*/
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
+   
+
+body{ 
+    background-image: url(/Project_1/images/Chicken_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+button{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    color: white ;
+    text-transform: lowercase;
+    background:gray;
+    padding: 10px;
+    border-radius: 5px;
+    height: 20%;
+    display: inline-block;
+    border: none;
+}
+/* modals */
+.modal-backdrop{
+    opacity:0.5 !important;
+}
+.modal-title{
+    font-family: 'Oleo Script', cursive;
+    font-size: 3em;
+}
+/* header */
+.h1Wrap{
+    height: 30%;
+    font-family: 'Oleo Script', cursive;
+    background-color: white;
+    display:flex;
+    align-items: baseline;
+   
+}
+.innerWrap{ 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 45%;   
+   
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 85%;
+    margin:auto;   
+}
+.imageDisplay{
+    text-align: center;
+    background-color: white;
+    
+}
+#foodPlace, #recipeHolder{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 3rem;
+    padding: 1em;
+    width: 80%;
+    height: 80%;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    justify-items: center;
+}
+/* EDAMOM API recipe cards*/
+#recipeText {
+    text-align: left;
+    padding: .7em;
+    font-size: 2em;
+}
+/* header */
+#food-input{
+    width: 30%;
+    height: 15%;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
+}
+/* websters API */
+#foodWords {
+    text-align:center;
+    width: 40%;
+    margin-right: auto;
+   
+}
+#headword{
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+}
+#definition{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
